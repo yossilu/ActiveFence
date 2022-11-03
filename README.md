@@ -19,8 +19,8 @@ The project is under the `backend` folder
 - local redis on default port is required
 
 #### Explanation
-Created an architechture of files, server at the top, then we will have "Redis" and "Rate Limiting" services
-the rate limiter works with token bucket so it could limit requests per second, token bucket works as a bucket
+Created an architechture of files, server at the top, then we will have "Redis" and "Rate Limiting" services controllers and routes.
+The rate limiter works with token bucket so it could limit requests per second, token bucket works as a bucket
 that keep refilling itself while watching for the right amount.
 In addition I've implemented a redis solution inside the token bucket rate limiter in order to maintain an
 expire time for each individual using the api, and it could be used in a distributed system.
