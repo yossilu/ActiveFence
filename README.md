@@ -5,13 +5,13 @@ rate limiter server
 
 ### Endpoints
 **GET /rate-limiter/token-bucket**</br>
-Get a Token bucket of 1 request per second with ratio of 1 token refill, unlimited a day
+Get a Token bucket of 1 request per second with ratio of 1 token refill, unlimited a day</br>
 **GET /rate-limiter/enterprise**</br>
-Get 100 requests per second - unlimited per day
+Get 100 requests per second - unlimited per day</br>
 **GET /rate-limiter/pro**</br>
-Get 10 requests per second - 12,000 per day
+Get 10 requests per second - 12,000 per day</br>
 **GET /rate-limiter/free**</br>
-Get 1 requests per second - 50 per day
+Get 1 requests per second - 50 per day</br>
 
 *******
 ## JaveScript(NodeJs)
